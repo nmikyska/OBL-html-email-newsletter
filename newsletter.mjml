@@ -1,0 +1,110 @@
+<mjml>
+  <mj-head>
+  
+  <mj-style inline="inline">
+      .link{
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+      a{
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+      a:hover{
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+      a:visited{
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+      
+  </mj-style>
+    <!--preview-->
+    <mj-preview>OBL Financial May 2019 Newsletter</mj-preview>
+    <!--subject line?-->
+    <mj-title>
+      OBL Financial
+    </mj-title>
+  </mj-head>
+
+  <mj-body background-color="lightgrey">
+  <!--logo section-->
+    <mj-section background-color="#ffffff" padding="0px">
+      <mj-column padding="0px">
+        <mj-image width="600px" alt="OBL Financial" fluid-on-mobile="true" src="http://www.nmikyska.com/emails/obl1/logo-lg.jpg" alt="OBL Finance logo" />
+      </mj-column>
+    </mj-section>
+    <!--end logo section-->
+  
+  <!--start of month/yr-->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text padding-top="0px" padding-bottom="0px" padding-left="30px" 
+        font-family="Helvetica, Arial, 'sans-serif'" font-size="26px" font-weight="600">
+          
+           May 2019
+          
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  <!--end of month/yr--><!--image section-->
+    <mj-section background-color="#ffffff" padding="0px">
+      <mj-column padding="0px">
+        <mj-image width="600px" height="200px" fluid-on-mobile="true" src="http://www.nmikyska.com/emails/obl1/OBLSlider01.png" alt="Semi-Truck on highway, financed by OBL Finance" />
+      </mj-column>
+    </mj-section>
+  <!--end image section-->
+
+  
+  <!--start of news-->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text padding-top="0px" padding-bottom="0px" padding-left="50px" padding-right="50px" line-height="20px" font-size="15px"
+        font-family="Helvetica, Arial, 'sans-serif'">
+          
+            Pellentesque ac venenatis arcu. Etiam sed neque venenatis, porttitor tortor ut, facilisis sem. Fusce id ante sed arcu auctor lacinia. Nullam quis erat in urna varius consectetur feugiat ut justo. Sed maximus leo vel facilisis pretium. Praesent ligula augue, dictum a iaculis at, cursus vitae libero. 
+            </mj-text>
+            <mj-spacer height="20px" />
+            <mj-text padding-top="0px" padding-bottom="0px" padding-left="50px" padding-right="50px" line-height="20px" font-size="15px" font-family="Helvetica, Arial, 'sans-serif'">
+            Suspendisse at consectetur metus. Sed quis eros id lorem rutrum tincidunt. Quisque blandit nisl vitae ex congue, sed mollis nunc aliquet. Fusce interdum bibendum commodo. Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis tincidunt sapien justo, vel commodo orci consequat in. </mj-text>
+            <mj-spacer height="20px" />
+            <mj-text padding-top="0px" padding-bottom="30px" padding-left="50px" padding-right="50px" line-height="20px" font-size="15px" font-family="Helvetica, Arial, 'sans-serif'">
+            Quisque ac augue ullamcorper, laoreet quam vitae, laoreet lectus.
+            </mj-text>
+      </mj-column>
+    </mj-section>
+  <!--end of news-->
+  <!--start of product columns-->
+    
+  <!--start of button-->
+    <mj-section background-color="#ffffff">
+        <mj-column>
+        
+          <mj-button font-family="Helvetica, Arial, 'sans-serif'" background-color="#3b475d" color="#ffffff" height="30px" font-size="20px" padding-right="0px" padding-left="0px">
+            <a href="https://www.#.com"> Download the Application</a>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+  <!--end of button-->
+
+  <!--start of footer-->
+    <mj-section background-color="#013475" padding-bottom="5px">
+      <mj-column>
+        <mj-text color="#ffffff" align="center" font-family="Helvetica, Arial, 'sans-serif'">
+          <h3>
+            OBL Financial
+          </h3>
+          <p>799 Roosevelt Road, #6-215, Glen Ellyn, IL 60137</p>
+          <p><a href="tel:630-850-7180" class="link">630-850-7180</a></p>
+          <p><a href="https://www.oblfinancial.com"  class="link">www.oblfinancial.com</p>
+          <br />
+          <p><a href="https://www.#.com"  class="link">Privacy Policy</a>&nbsp;&nbsp; | &nbsp;&nbsp;<a href="https://www.#.com"  class="link">Unsubscribe</a></p>
+          <p>Copyright &copy; 2019 OBL Financial Services | All Rights Reserved</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  <!--end of footer-->
+
+  </mj-body>
+</mjml>
